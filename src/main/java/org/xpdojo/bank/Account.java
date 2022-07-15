@@ -4,16 +4,16 @@ public class Account {
 
    int balance = 0;
 
-    public void balance() {
-        return balance;
+    public int balance() {
+        return this.balance;
     }
 
-    public void deposit(int i:0) {
-        balance = balance + i;
+    public void deposit(int i) {
+        this.balance = this.balance + i;
     }
 
-    public void withdraw(int i:0) {
-        balance = balance - i;
+    public void withdraw(int i) {
+        this.balance = this.balance - i;
     }
 
 }
