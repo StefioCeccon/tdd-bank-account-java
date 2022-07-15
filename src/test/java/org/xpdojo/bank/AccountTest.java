@@ -34,7 +34,7 @@ public class AccountTest {
         Money money = new Money();
         money.transfer(account_from,account_to,100);
         assertThat(account_from.balance()).isEqualTo(0);
-        assertThat(account_to.balance()).isEqualTo(1000);
+        assertThat(account_to.balance()).isEqualTo(100);
 
     }
 
